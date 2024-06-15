@@ -20,7 +20,6 @@ const wishListSchema = new moongoose.Schema({
     },
     description:{
         type:String,
-       
     },
     userId:{   
         type:moongoose.Schema.Types.ObjectId,
